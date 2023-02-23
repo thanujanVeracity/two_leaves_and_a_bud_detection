@@ -3,14 +3,14 @@ _base_ = './faster_rcnn_r50_caffe_fpn_mstrain_3x_coco.py'
 
 log_config = dict(interval=13, hooks=[dict(type='TextLoggerHook')])
 
-model = dict(roi_head=dict(bbox_head=dict(num_classes=3)))
-classes = ('good', 'bad', 'more_than_two')
+model = dict(roi_head=dict(bbox_head=dict(num_classes=2)))
+classes = ('bad', 'good')
 
 workflow = [('train', 1), ('val', 1)]
 
 
 dataset_type = 'CocoDataset'
-data_root = "./leaves/"
+data_root = "tea_leaves/"
 
 data = dict(
     train=dict(
@@ -19,20 +19,20 @@ data = dict(
         dataset=dict(
             type='CocoDataset',
             classes= classes,
-            ann_file=data_root+'train.json',
-            img_prefix='./leaves/Leaf Image/',
+            ann_file=f"{data_root}train.json",
+            img_prefix=data_root,
             )),
     val=dict(
         type='CocoDataset',
         classes= classes,
-        ann_file=data_root+'valid.json',
-        img_prefix='./leaves/Leaf Image/',
+        ann_file=f'{data_root}valid.json',
+        img_prefix=data_root,
         ),
     test=dict(
         type='CocoDataset',
         classes= classes,
-        ann_file=data_root+'test.json',
-        img_prefix='./leaves/Leaf Image/',
+        ann_file=f'{data_root}test.json',
+        img_prefix=data_root,
         ))
 
 
@@ -47,7 +47,7 @@ lr_config = dict(
     step=[9, 11])
 
 
-runner = dict(type='EpochBasedRunner', max_epochs=100)
+runner = dict(type='EpochBasedRunner', max_epochs=2)
 
 
 evaluation = dict(interval=13, metric='bbox')

@@ -8,10 +8,10 @@
         274.92999999999995,
         412.33
       ],
-      "category_id": 5,
+      "category_id": 1,
       "id": 9,
       "image_id": 1,
-      "isCrowd": 0,
+      "iscrowd": 0,
       "segmentation": [
         [
           925.07,
@@ -33,10 +33,10 @@
         728.75,
         152.18
       ],
-      "category_id": 4,
+      "category_id": 0,
       "id": 10,
       "image_id": 1,
-      "isCrowd": 0,
+      "iscrowd": 0,
       "segmentation": [
         [
           471.25,
@@ -58,10 +58,10 @@
         147.88,
         250.8
       ],
-      "category_id": 5,
+      "category_id": 1,
       "id": 11,
       "image_id": 1,
-      "isCrowd": 0,
+      "iscrowd": 0,
       "segmentation": [
         [
           909.77,
@@ -83,10 +83,10 @@
         330.17,
         456.54
       ],
-      "category_id": 4,
+      "category_id": 0,
       "id": 12,
       "image_id": 1,
-      "isCrowd": 0,
+      "iscrowd": 0,
       "segmentation": [
         [
           0,
@@ -108,10 +108,10 @@
         287.68,
         226.14
       ],
-      "category_id": 4,
+      "category_id": 0,
       "id": 13,
       "image_id": 1,
-      "isCrowd": 0,
+      "iscrowd": 0,
       "segmentation": [
         [
           0,
@@ -133,10 +133,10 @@
         453.82,
         507.55
       ],
-      "category_id": 4,
+      "category_id": 0,
       "id": 14,
       "image_id": 1,
-      "isCrowd": 0,
+      "iscrowd": 0,
       "segmentation": [
         [
           367.56,
@@ -158,10 +158,10 @@
         740.23,
         405.53
       ],
-      "category_id": 4,
+      "category_id": 0,
       "id": 15,
       "image_id": 1,
-      "isCrowd": 0,
+      "iscrowd": 0,
       "segmentation": [
         [
           285.98,
@@ -183,10 +183,10 @@
         77.34,
         223.59
       ],
-      "category_id": 5,
+      "category_id": 1,
       "id": 16,
       "image_id": 1,
-      "isCrowd": 0,
+      "iscrowd": 0,
       "segmentation": [
         [
           200.99,
@@ -208,10 +208,10 @@
         559.21,
         306.91
       ],
-      "category_id": 5,
+      "category_id": 1,
       "id": 17,
       "image_id": 1,
-      "isCrowd": 0,
+      "iscrowd": 0,
       "segmentation": [
         [
           506.94,
@@ -233,10 +233,10 @@
         402.83,
         176.83
       ],
-      "category_id": 5,
+      "category_id": 1,
       "id": 18,
       "image_id": 1,
-      "isCrowd": 0,
+      "iscrowd": 0,
       "segmentation": [
         [
           644.62,
@@ -258,10 +258,10 @@
         197.59,
         339.21
       ],
-      "category_id": 5,
+      "category_id": 1,
       "id": 19,
       "image_id": 1,
-      "isCrowd": 0,
+      "iscrowd": 0,
       "segmentation": [
         [
           0,
@@ -283,10 +283,10 @@
         384.56,
         521.15
       ],
-      "category_id": 4,
+      "category_id": 0,
       "id": 44,
       "image_id": 4,
-      "isCrowd": 0,
+      "iscrowd": 0,
       "segmentation": [
         [
           0,
@@ -308,10 +308,10 @@
         337.39,
         266.1
       ],
-      "category_id": 5,
+      "category_id": 1,
       "id": 45,
       "image_id": 4,
-      "isCrowd": 0,
+      "iscrowd": 0,
       "segmentation": [
         [
           535.84,
@@ -333,10 +333,10 @@
         515.86,
         233
       ],
-      "category_id": 5,
+      "category_id": 1,
       "id": 46,
       "image_id": 4,
-      "isCrowd": 0,
+      "iscrowd": 0,
       "segmentation": [
         [
           566.43,
@@ -358,10 +358,10 @@
         72.24,
         223.59
       ],
-      "category_id": 5,
+      "category_id": 1,
       "id": 47,
       "image_id": 4,
-      "isCrowd": 0,
+      "iscrowd": 0,
       "segmentation": [
         [
           272.38,
@@ -383,10 +383,10 @@
         595.75,
         259.3
       ],
-      "category_id": 4,
+      "category_id": 0,
       "id": 48,
       "image_id": 4,
-      "isCrowd": 0,
+      "iscrowd": 0,
       "segmentation": [
         [
           355.67,
@@ -408,10 +408,10 @@
         247,
         360.69
       ],
-      "category_id": 5,
+      "category_id": 1,
       "id": 166,
       "image_id": 20,
-      "isCrowd": 0,
+      "iscrowd": 0,
       "segmentation": [
         [
           1095.9,
@@ -433,10 +433,10 @@
         149.84,
         250.84
       ],
-      "category_id": 5,
+      "category_id": 1,
       "id": 167,
       "image_id": 20,
-      "isCrowd": 0,
+      "iscrowd": 0,
       "segmentation": [
         [
           0,
@@ -458,10 +458,10 @@
         275.6,
         219.13
       ],
-      "category_id": 5,
+      "category_id": 1,
       "id": 168,
       "image_id": 20,
-      "isCrowd": 0,
+      "iscrowd": 0,
       "segmentation": [
         [
           0,
@@ -483,10 +483,10 @@
         270.22,
         330.12
       ],
-      "category_id": 4,
+      "category_id": 0,
       "id": 169,
       "image_id": 20,
-      "isCrowd": 0,
+      "iscrowd": 0,
       "segmentation": [
         [
           2.55,
@@ -508,10 +508,10 @@
         227.17,
         273.49
       ],
-      "category_id": 5,
+      "category_id": 1,
       "id": 170,
       "image_id": 20,
-      "isCrowd": 0,
+      "iscrowd": 0,
       "segmentation": [
         [
           728.81,
@@ -533,10 +533,10 @@
         185.25,
         230.73000000000002
       ],
-      "category_id": 5,
+      "category_id": 1,
       "id": 171,
       "image_id": 20,
-      "isCrowd": 0,
+      "iscrowd": 0,
       "segmentation": [
         [
           1153.68,
@@ -558,10 +558,10 @@
         357.57,
         161.17
       ],
-      "category_id": 5,
+      "category_id": 1,
       "id": 172,
       "image_id": 21,
-      "isCrowd": 0,
+      "iscrowd": 0,
       "segmentation": [
         [
           571.71,
@@ -583,10 +583,10 @@
         330.98,
         182.22000000000003
       ],
-      "category_id": 5,
+      "category_id": 1,
       "id": 173,
       "image_id": 21,
-      "isCrowd": 0,
+      "iscrowd": 0,
       "segmentation": [
         [
           312.59,
@@ -608,10 +608,10 @@
         288.54,
         448.44
       ],
-      "category_id": 4,
+      "category_id": 0,
       "id": 174,
       "image_id": 21,
-      "isCrowd": 0,
+      "iscrowd": 0,
       "segmentation": [
         [
           544.55,
@@ -633,10 +633,10 @@
         452.05,
         268.61
       ],
-      "category_id": 4,
+      "category_id": 0,
       "id": 175,
       "image_id": 21,
-      "isCrowd": 0,
+      "iscrowd": 0,
       "segmentation": [
         [
           586.42,
@@ -658,10 +658,10 @@
         334.94,
         244.86
       ],
-      "category_id": 4,
+      "category_id": 0,
       "id": 176,
       "image_id": 21,
-      "isCrowd": 0,
+      "iscrowd": 0,
       "segmentation": [
         [
           1188.4,
@@ -683,10 +683,10 @@
         154.74,
         188.31
       ],
-      "category_id": 4,
+      "category_id": 0,
       "id": 177,
       "image_id": 21,
-      "isCrowd": 0,
+      "iscrowd": 0,
       "segmentation": [
         [
           1445.26,
@@ -708,10 +708,10 @@
         230.27,
         302.54
       ],
-      "category_id": 5,
+      "category_id": 1,
       "id": 178,
       "image_id": 21,
-      "isCrowd": 0,
+      "iscrowd": 0,
       "segmentation": [
         [
           701.84,
@@ -733,10 +733,10 @@
         265.91,
         307.07
       ],
-      "category_id": 5,
+      "category_id": 1,
       "id": 179,
       "image_id": 21,
-      "isCrowd": 0,
+      "iscrowd": 0,
       "segmentation": [
         [
           816.12,
@@ -758,10 +758,10 @@
         445.83,
         193.27
       ],
-      "category_id": 4,
+      "category_id": 0,
       "id": 180,
       "image_id": 21,
-      "isCrowd": 0,
+      "iscrowd": 0,
       "segmentation": [
         [
           1104.67,
@@ -783,10 +783,10 @@
         355.87,
         383.98
       ],
-      "category_id": 4,
+      "category_id": 0,
       "id": 193,
       "image_id": 24,
-      "isCrowd": 0,
+      "iscrowd": 0,
       "segmentation": [
         [
           279.77,
@@ -808,10 +808,10 @@
         260.54,
         233.99
       ],
-      "category_id": 5,
+      "category_id": 1,
       "id": 194,
       "image_id": 24,
-      "isCrowd": 0,
+      "iscrowd": 0,
       "segmentation": [
         [
           0,
@@ -833,10 +833,10 @@
         221.22,
         283.32
       ],
-      "category_id": 5,
+      "category_id": 1,
       "id": 195,
       "image_id": 24,
-      "isCrowd": 0,
+      "iscrowd": 0,
       "segmentation": [
         [
           1086.56,
@@ -858,10 +858,10 @@
         204.24,
         229.03
       ],
-      "category_id": 5,
+      "category_id": 1,
       "id": 196,
       "image_id": 24,
-      "isCrowd": 0,
+      "iscrowd": 0,
       "segmentation": [
         [
           855.73,
@@ -883,10 +883,10 @@
         330.98,
         300.28
       ],
-      "category_id": 5,
+      "category_id": 1,
       "id": 197,
       "image_id": 24,
-      "isCrowd": 0,
+      "iscrowd": 0,
       "segmentation": [
         [
           295.62,
@@ -908,10 +908,10 @@
         251.77,
         207.54
       ],
-      "category_id": 5,
+      "category_id": 1,
       "id": 198,
       "image_id": 24,
-      "isCrowd": 0,
+      "iscrowd": 0,
       "segmentation": [
         [
           52.33,
@@ -929,31 +929,11 @@
   "categories": [
     {
       "id": 0,
-      "name": "dolphin",
-      "supercategory": "none"
-    },
-    {
-      "id": 1,
-      "name": "chicken",
-      "supercategory": "none"
-    },
-    {
-      "id": 2,
-      "name": "cat",
-      "supercategory": "none"
-    },
-    {
-      "id": 3,
-      "name": "dog",
-      "supercategory": "none"
-    },
-    {
-      "id": 4,
       "name": "bad",
       "supercategory": "none"
     },
     {
-      "id": 5,
+      "id": 1,
       "name": "good",
       "supercategory": "none"
     }
