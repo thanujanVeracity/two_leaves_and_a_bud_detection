@@ -2,3 +2,27 @@
 
 # Visualization of data
 python3 tools/misc/browse_dataset.py configs_dev/faster_rcnn_r50_v2_jeevan_data.py --output-dir /media/thajan/Thanujan/thajan/Desktop/two_leaves_and_a_bud/mmdetection/results/jeevan_data_visualize/
+
+
+# Training 
+python3 tools/train.py configs_dev/faster_rcnn_r50_v2_jeevan_data.py
+
+# analaysis log file
+python tools/analysis_tools/analyze_logs.py plot_curve asdasdas.log.json --keys acc acc_val --legend accuracy_train accuracy_validation
+
+
+# analaysis TensorboardLoggerHook
+tensorboard --logdir /media/thajan/Thanujan/thajan/Desktop/two_leaves_and_a_bud/mmdetection/work_dirs/faster_rcnn_r50_v2/tf_logs/
+
+
+
+
+
+# Confusion matrix
+python tools/analysis_tools/confusion_matrix.py configs_dev/faster_rcnn_r50_v2.py  results.pkl outdir --show
+
+
+
+
+# Testing
+python3 tools/test.py config pthfile --out outresult.pkl     --eval bbox
