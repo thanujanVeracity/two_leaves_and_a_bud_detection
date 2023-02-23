@@ -1,0 +1,4 @@
+
+
+# Visualization of data
+python3 tools/misc/browse_dataset.py configs_dev/faster_rcnn_r50_v2_jeevan_data.py --output-dir /media/thajan/Thanujan/thajan/Desktop/two_leaves_and_a_bud/mmdetection/results/jeevan_data_visualize/
