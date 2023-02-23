@@ -1,6 +1,8 @@
 _base_ = [
     '../common/mstrain_3x_coco.py', '../_base_/models/faster_rcnn_r50_fpn.py'
 ]
+
+
 model = dict(
     backbone=dict(
         type='ResNeXt',
@@ -14,3 +16,6 @@ model = dict(
         style='pytorch',
         init_cfg=dict(
             type='Pretrained', checkpoint='open-mmlab://resnext101_64x4d')))
+
+
+
