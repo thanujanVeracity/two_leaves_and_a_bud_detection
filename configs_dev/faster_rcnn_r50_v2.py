@@ -1,7 +1,7 @@
 _base_ = './faster_rcnn_r50_caffe_fpn_mstrain_3x_coco.py'
 
 
-log_config = dict(interval=1, hooks=[dict(type='TextLoggerHook')])
+log_config = dict(interval=13, hooks=[dict(type='TextLoggerHook')])
 
 model = dict(roi_head=dict(bbox_head=dict(num_classes=3)))
 classes = ('good', 'bad', 'more_than_two')
@@ -50,7 +50,7 @@ lr_config = dict(
 runner = dict(type='EpochBasedRunner', max_epochs=100)
 
 
-evaluation = dict(interval=1, metric='bbox')
+evaluation = dict(interval=13, metric='bbox')
 
 
 
