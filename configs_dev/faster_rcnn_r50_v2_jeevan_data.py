@@ -35,7 +35,15 @@ data = dict(
         ann_file=f'{data_root}test.json',
         img_prefix=data_root,
         ))
-
+train_dataset = dict(
+    # use MultiImageMixDataset wrapper to support mosaic and mixup
+    type='MultiImageMixDataset',
+    dataset=dict(
+        type='CocoDataset',
+        pipeline=[
+            dict(type='LoadImageFromFile'),
+            dict(type='LoadAnnotations', with_bbox=True)
+        ]))
 
 
 optimizer = dict(type='SGD', lr=0.02, momentum=0.9, weight_decay=0.0001)
@@ -51,7 +59,7 @@ lr_config = dict(
 runner = dict(type='EpochBasedRunner', max_epochs=100)
 
 
-evaluation = dict(interval=8, metric='bbox')
+evaluation = dict(interval=8, metric='bbox',save_best='bbox_mAP')
 
 
 

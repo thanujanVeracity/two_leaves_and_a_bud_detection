@@ -4,7 +4,7 @@ _base_ = './faster_rcnn_r50_caffe_fpn_mstrain_3x_coco.py'
 log_config = dict(interval=13, hooks=[dict(type='TextLoggerHook')])
 
 model = dict(roi_head=dict(bbox_head=dict(num_classes=3)))
-classes = ('good', 'bad', 'more_than_two')
+classes = ('more_than_two', 'bad', 'good')
 
 workflow = [('train', 1), ('val', 1)]
 
